@@ -1,0 +1,51 @@
+body {
+background-color: steelblue;
+
+}
+
+h3 {
+color: springgreen;
+font-family: "Lucida Console", Monaco, monospace ;
+
+}
+
+p {
+  padding-top: 0.5em;
+color: firebrick;
+font-family: "Lucida Console", Monaco, monospace ;
+
+}
+
+ul {
+    background: lightblue;
+    margin: 0.75em;
+    margin-bottom: 1.5em;
+    padding: 0;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace ;
+
+}
+
+
+li{
+    display: inline-block;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    word-spacing: -0.25em;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace ;
+
+}
+
+hr {
+  border-color: lightblue;
+  font-family: "Lucida Console", Monaco, monospace ;
+
+}
+
+form {
+  color: firebrick;
+  font-family: "Lucida Console", Monaco, monospace ;
+
+}
+
