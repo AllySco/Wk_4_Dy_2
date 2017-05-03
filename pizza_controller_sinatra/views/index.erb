@@ -1,9 +1,10 @@
 <h2>All Pizza Orders</h2>
+<hr/>
 
 <% @pizzas.each() do |pizza| %>
   
     <p>Name: <%= pizza.pretty_name() %></p>
-<img src="../public/pizza.gif" alt="Cowboy pizza guy" height ="128" width="128" align="right">
+<img src="pizza.gif" alt="Cowboy pizza guy">
     <p>Order: <%= pizza.quantity %> x <%= pizza.topping %></p>
     <p><a href="/pizzas/<%= pizza.id %>">Show Order</a></p>
     <p><a href="pizzas/<%= pizza.id %>/edit">Edit Order</a></p>

@@ -1,6 +1,5 @@
 body {
 background-color: steelblue;
-
 }
 
 a {
@@ -8,18 +7,15 @@ a {
   font-family: "Lucida Console", Monaco, monospace ;
 }
 
-
 h2 {
 color: springgreen;
 font-family: "Lucida Console", Monaco, monospace ;
-
 }
 
 p {
   padding-top: 0.5em;
 color: firebrick;
 font-family: "Lucida Console", Monaco, monospace ;
-
 }
 
 ul {
@@ -29,7 +25,6 @@ ul {
     padding: 0;
     text-align: center;
     font-family: "Lucida Console", Monaco, monospace ;
-
 }
 
 nav {
@@ -51,19 +46,16 @@ li{
     word-spacing: -0.25em;
     text-align: left;
     font-family: "Lucida Console", Monaco, monospace ;
-
 }
 
 hr {
   border-color: lightblue;
   font-family: "Lucida Console", Monaco, monospace ;
-
 }
 
 form {
   color: firebrick;
   font-family: "Lucida Console", Monaco, monospace ;
-
 }
 
 input {
@@ -71,10 +63,15 @@ input {
   background-color: azure;
   font-family: "Lucida Console", Monaco, monospace ;
   color: firebrick;
-
 }
 
 option {
   background-color: azure;
 }
 
+img {
+  height: 128px;
+  width: 128px;
+  float: right;
+}
+}
