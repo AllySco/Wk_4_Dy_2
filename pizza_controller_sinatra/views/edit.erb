@@ -1,13 +1,16 @@
-<h3>Update your order</h3>
+<h2>Update Your Order</h2>
 
 <form action="/pizzas/<%=@pizza.id%>" method="POST">
-
+<ul>
+<li>
   <label for="first-name-field">First Name:</label>
   <input id="first-name-field" name="first_name" type="text" value="<%=@pizza.first_name%>"/>
-
+</li>
+<li>
   <label for="last-name-field">Last Name:</label>
   <input id="last-name-field" type="text" name="last_name" value="<%=@pizza.last_name%>">
-
+</li>
+<li>
   <label for="pizza-select">Select your pizza:</label>
   <select id="pizza-select" name="topping">
 
@@ -18,11 +21,16 @@
     <option value="Hawaiiain"<%= "selected" if @pizza.topping == "Hawaiiain" %>>Hawaiiain</option>
 
   </select>
+  </li>
+  <li>
 
   <label for="quantity">How many pizzas?</label>
   <input min="0" type="number" id="quantity" name="quantity" value="<%=@pizza.quantity%>">
-
-  <input type="submit" value="Update Order">
+  </li>
+  <li>
+  <input type="submit" value="   Update Order   ">
+  </li>
+  </ul>
 
 
 </form>
